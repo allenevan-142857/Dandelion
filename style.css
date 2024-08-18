@@ -1,0 +1,221 @@
+/*
+Theme Name: Dandelion
+Theme URI: http://allenevan.rf.gd/blog
+Author: Allenevan
+Author URI: http://allenevan.rf.gd/blog
+Description: Dandelion theme for Wordpress
+Version: 0.5
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: Dandelion
+*/
+body {
+    background-color: #f0f4f8;
+    color: #333;
+    font-family: Arial, sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #0073e6;
+}
+
+a {
+    color: #0073e6;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.header, .footer {
+    background-color: #0073e6;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    border-radius: 15px;
+    margin-bottom: 20px;
+}
+
+.feature-slider {
+    position: relative;
+    max-width: 100%;
+    overflow: hidden;
+    border-radius: 10px;
+    margin: 20px 0;
+}
+
+.feature-slide {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    transition: opacity 1s ease-in-out;
+    opacity: 0;
+    background-color: #0073e6;
+    color: #fff;
+    padding: 20px;
+}
+
+.feature-slide img {
+    max-width: 50%;
+    border-radius: 10px 0 0 10px;
+}
+
+.feature-slide h2 {
+    flex: 1;
+    margin: 0;
+    padding: 20px;
+    font-size: 24px;
+    border-radius: 0 10px 10px 0;
+}
+
+.feature-slide.active {
+    opacity: 1;
+}
+
+.card {
+    border-radius: 15px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 20px 0;
+    padding: 15px;
+}
+
+.read-more {
+    display: inline-block;
+    margin-top: 10px;
+    background-color: #0073e6;
+    color: #fff;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+
+.read-more:hover {
+    background-color: #005bb5;
+}
+
+.single-post .post-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 15px;
+    background-color: #e0f0ff;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.single-post .post-header .post-image {
+    flex: 1;
+    max-width: 300px;
+    margin-right: 20px;
+}
+
+.single-post .post-header .post-image img {
+    border-radius: 15px;
+    max-width: 100%;
+}
+
+.single-post .post-header .post-title {
+    flex: 2;
+}
+
+.single-post .post-header .post-title h1 {
+    font-size: 32px;
+    color: #0073e6;
+}
+
+.single-post .post-content {
+    padding: 20px;
+    border-radius: 15px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.single-post .post-comments {
+    margin-top: 40px;
+    padding: 20px;
+    border-radius: 15px;
+    background-color: #f0f4f8;
+}
+
+/* 评论区样式 */
+.comments {
+    border-radius: 15px;
+    background-color: #e0f0ff;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.comments h3 {
+    color: #0073e6;
+}
+
+.comment {
+    border-radius: 10px;
+    background-color: #fff;
+    padding: 15px;
+    margin-bottom: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.comment-author {
+    color: #0073e6;
+    font-weight: bold;
+}
+
+.comment-meta {
+    font-size: 12px;
+    color: #666;
+    margin-bottom: 10px;
+}
+
+.comment-body {
+    font-size: 14px;
+    color: #333;
+}
+
+.comment-reply-link {
+    color: #0073e6;
+    text-decoration: none;
+    font-size: 12px;
+}
+
+.comment-reply-link:hover {
+    text-decoration: underline;
+}
+
+.comment-form {
+    border-radius: 15px;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+}
+
+.comment-form input[type="text"],
+.comment-form input[type="email"],
+.comment-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    font-size: 14px;
+}
+
+.comment-form input[type="submit"] {
+    background-color: #0073e6;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.comment-form input[type="submit"]:hover {
+    background-color: #005bb5;
+}
