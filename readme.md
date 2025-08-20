@@ -1,4 +1,3 @@
 # Dandelion
  A wordpress theme
-Written by Allenevan by hand.
-See: http://allenevan.rf.gd/blog
+Written by Evanstellun by hand without using AI tools.
